@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fct_sales
+    description: "Fact table combining menu and sales data with profit metrics"
+    columns:
+      - name: SALE_ID
+        description: "Unique sale identifier"
+        tests: [not_null, unique]
+      - name: MENU_ITEM_ID
+        tests: [not_null]
+      - name: SALE_DATE
+        tests: [not_null]
+      - name: TOTAL_REVENUE
+        tests: [not_null]
+      - name: TOTAL_PROFIT
+        tests: [not_null]
