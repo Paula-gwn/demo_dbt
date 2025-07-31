@@ -16,3 +16,6 @@ Step 4: Create a YML File for Documentation & Tests
 
 ✅ Phase 3: Run & Validate  
 ▶️ Step 5: Run All Models
+
+I Simulated Sales Data in Snowflake
+- to generate a daily_sales table that I can use for metrics like revenue and volume.
