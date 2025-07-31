@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_menu
+    description: "Staging model for the food truck menu data"
+    columns:
+      - name: MENU_ID
+        tests: [not_null, unique]
+      - name: MENU_ITEM_NAME
+        tests: [not_null]
+      - name: PROFIT_USD
+        description: "Profit per item (sale - cost)"
