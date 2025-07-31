@@ -9,9 +9,9 @@ We'll break this down into clear stages:
 🔧 Step 1: Create a Staging Model for my menu Table  
    Step 2: Create a YML File for Documentation & Tests
 
-✅ Phase 2: Dimensional & Fact Models
-📦 Step 3: Create a Profit Analysis Model
-  Step 4: Create a YML File for Documentation & Tests  
+✅ Phase 2: Dimensional & Fact Models  
+📦 Step 3: Create a Profit Analysis Model  
+Step 4: Create a YML File for Documentation & Tests  
 
 ✅ Phase 3: Run & Validate  
 ▶️ Step 5: Run All Models
